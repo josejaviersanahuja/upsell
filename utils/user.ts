@@ -1,0 +1,1 @@
+export const USERS = ["JESMAL", "KIMRAM", "VANCHI", "FRACOR", "JosJav", "joalop", "Floboe", "VANGUT"]
