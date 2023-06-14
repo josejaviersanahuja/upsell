@@ -18,6 +18,7 @@ export default function Home() {
           src="booking_journal.png"
           alt="screen-shot del booking journal"
         />
+        <p>Del Booking Journal nos interesan solo las ventas directas. Hablarlo con el jefe pero supongo que entran Late Check Out, Parking, Breakfast Direct, Lunch Direct, Dinner Direct</p>
         <p>Ahora vamos a Reservations y vamos a buscar todas las reservas con 1 Mes antes del mes que vamos a procesar</p>
         <p>Luego filtramos las reservas todas las que hayan hecho checkout y las que estén checked in</p>
         <p>Procuramos tener la vista simplificada y damos click al botón del excel.</p>
@@ -41,6 +42,17 @@ export default function Home() {
           src="list.png"
           alt="screen-shot del listado"
         />
+        <p>Del Booking Journal vamos a copiar desde la línea Late check out hasta el último subtotal. Mejor veanlo</p>
+        <img
+          src="bj1.png"
+          alt="screen-shot bj1"
+        />
+        <p>Desde la línea 11 en este caso hasta el último Total sin incluir el revenue</p>
+        <img
+          src="bj2.png"
+          alt="screen-shot bj2"
+        />
+
       </main>
     </>
   );
